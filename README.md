@@ -107,19 +107,19 @@ then serial receiver (server) will start listening to the serial publisher. for 
 | **Accelerated** | 95,33% | 110 mW | 3,48 ms |
 | **Non-Accelerated** | 95,83% | 228,5 mW | 33,522 ms |  
 
-<img width="400" height="200" alt="Screenshot 2026-10-21 163819" src="https://github.com/user-attachments/assets/ac94b2ca-1dfd-4384-b3cc-693195476d3b" />       
+<img width="500" height="300" alt="snn in" src="https://github.com/user-attachments/assets/f246c220-7cce-4790-837d-fc3161e6ac4e" />
 
 image(1) represent the power used during SNN inference in CPU only (Arm Cortex A53), in this image also shown the latency for SNN inference scored 33.297 m, here also shown the accuracy of 95.8%    
 
-<img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/b280cb5e-69ed-48aa-b847-536207ea813b" />     
+<img width="500" height="300" alt="before" src="https://github.com/user-attachments/assets/f9e42a5c-b42a-4b53-8f76-036de6f76e16" />
 
 image(2) represent the power used during idle state in FPGA   
 
-<img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/3919e57f-0632-4414-84be-46c25cc712e2" />     
+<img width="500" height="300" alt="after" src="https://github.com/user-attachments/assets/4e6fc3a7-8c49-4ef1-925e-85328e80a017" />
 
 image(3) represent the power used during snn inference in FPGA, then the inferce power measured by the delta of idle state and inference state which resulted in 110 mW      
 
-<img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/6dd4e851-179b-4a52-9ddd-359573151f0f" />    
+<img width="500" height="200" alt="snn fpga" src="https://github.com/user-attachments/assets/0e25a3cc-8921-4c36-bf53-4461079b04fb" />
 
 For the Latency during accelerated SNN in FPGA, it was measured from the Kria process (ignoring the serial latency), which resulted in 3.488 ms. From this result, we also can see the accuracy of 95.33%
 
