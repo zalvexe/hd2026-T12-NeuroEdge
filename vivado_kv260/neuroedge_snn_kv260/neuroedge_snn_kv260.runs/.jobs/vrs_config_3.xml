@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="snn_soc_kv260_snn_axi_lite_0_0_synth_1" LaunchDir="F:/Hackathon IC/neuroedge_kr260_starter_SNN95/vivado_kv260/neuroedge_snn_kv260/neuroedge_snn_kv260.runs/snn_soc_kv260_snn_axi_lite_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="snn_soc_kv260_rst_ps8_0_99M_0_synth_1" LaunchDir="F:/Hackathon IC/neuroedge_kr260_starter_SNN95/vivado_kv260/neuroedge_snn_kv260/neuroedge_snn_kv260.runs/snn_soc_kv260_rst_ps8_0_99M_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="snn_soc_kv260_auto_ds_0_synth_1" LaunchDir="F:/Hackathon IC/neuroedge_kr260_starter_SNN95/vivado_kv260/neuroedge_snn_kv260/neuroedge_snn_kv260.runs/snn_soc_kv260_auto_ds_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="snn_soc_kv260_auto_pc_0_synth_1" LaunchDir="F:/Hackathon IC/neuroedge_kr260_starter_SNN95/vivado_kv260/neuroedge_snn_kv260/neuroedge_snn_kv260.runs/snn_soc_kv260_auto_pc_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="snn_soc_kv260_zynq_ultra_ps_e_0_0_synth_1" LaunchDir="F:/Hackathon IC/neuroedge_kr260_starter_SNN95/vivado_kv260/neuroedge_snn_kv260/neuroedge_snn_kv260.runs/snn_soc_kv260_zynq_ultra_ps_e_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="F:/Hackathon IC/neuroedge_kr260_starter_SNN95/vivado_kv260/neuroedge_snn_kv260/neuroedge_snn_kv260.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="snn_soc_kv260_snn_axi_lite_0_0_synth_1"/>
+		<Parent Id="snn_soc_kv260_rst_ps8_0_99M_0_synth_1"/>
+		<Parent Id="snn_soc_kv260_auto_ds_0_synth_1"/>
+		<Parent Id="snn_soc_kv260_auto_pc_0_synth_1"/>
+		<Parent Id="snn_soc_kv260_zynq_ultra_ps_e_0_0_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+		<Parameter Name="runs.enableClusterConf" Val="true" Type="bool"/>
+		<Parameter Name="general.shortenLongPath" Val="true" Type="bool"/>
+	</Parameters>
+	<ProductInfo Name="vivado"/>
+</Runs>
+

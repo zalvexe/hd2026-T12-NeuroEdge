@@ -1,0 +1,27 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Thu Oct 22 11:51:44 2026
+| Host         : DESKTOP-1CPBA5E running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xck26-sfvc784-2LV-c
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'snn_soc_kv260_snn_axi_lite_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of snn_soc_kv260_snn_axi_lite_0_0 (xilinx.com:user:snn_axi_lite:1.0) from (Rev. 2) to (Rev. 4)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'snn_soc_kv260_snn_axi_lite_0_0'. These changes may impact your design.
+
+
+-Upgrade has added port 'class_led'
+
+

@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_snn_fpga_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_snn_fpga" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000000 ms"></ZoomStartTime>
+      <ZoomEndTime time="33.200000001 ms"></ZoomEndTime>
+      <Cursor1Time time="1.250000000 ms"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="183"></NameColumnWidth>
+      <ValueColumnWidth column_width="144"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="58" />
+   <wvobject fp_name="/tb_snn_fpga/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_snn_fpga/resetn" type="logic">
+      <obj_property name="ElementShortName">resetn</obj_property>
+      <obj_property name="ObjectShortName">resetn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_snn_fpga/awaddr" type="array">
+      <obj_property name="ElementShortName">awaddr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">awaddr[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_snn_fpga/araddr" type="array">
+      <obj_property name="ElementShortName">araddr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">araddr[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_snn_fpga/awprot" type="array">
+      <obj_property name="ElementShortName">awprot[2:0]</obj_property>
+      <obj_property name="ObjectShortName">awprot[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_snn_fpga/arprot" type="array">
+      <obj_property name="ElementShortName">arprot[2:0]</obj_property>
+      <obj_property name="ObjectShortName">arprot[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_snn_fpga/awvalid" type="logic">
+      <obj_property name="ElementShortName">awvalid</obj_property>
+      <obj_property name="ObjectShortName">awvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_snn_fpga/wvalid" type="logic">
+      <obj_property name="ElementShortName">wvalid</obj_property>
+      <obj_property name="ObjectShortName">wvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_snn_fpga/bready" type="logic">
+      <obj_property name="ElementShortName">bready</obj_property>
+      <obj_property name="ObjectShortName">bready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_snn_fpga/arvalid" type="logic">
+      <obj_property name="ElementShortName">arvalid</obj_property>
+      <obj_property name="ObjectShortName">arvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_snn_fpga/rready" type="logic">
+      <obj_property name="ElementShortName">rready</obj_property>
+      <obj_property name="ObjectShortName">rready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_snn_fpga/awready" type="logic">
+      <obj_property name="ElementShortName">awready</obj_property>
+      <obj_property name="ObjectShortName">awready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_snn_fpga/wready" type="logic">
+      <obj_property name="ElementShortName">wready</obj_property>
+      <obj_property name="ObjectShortName">wready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_snn_fpga/bvalid" type="logic">
+      <obj_property name="ElementShortName">bvalid</obj_property>
+      <obj_property name="ObjectShortName">bvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_snn_fpga/arready" type="logic">
+      <obj_property name="ElementShortName">arready</obj_property>
+      <obj_property name="ObjectShortName">arready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_snn_fpga/rvalid" type="logic">
+      <obj_property name="ElementShortName">rvalid</obj_property>
+      <obj_property name="ObjectShortName">rvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_snn_fpga/wdata" type="array">
+      <obj_property name="ElementShortName">wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_snn_fpga/wstrb" type="array">
+      <obj_property name="ElementShortName">wstrb[3:0]</obj_property>
+      <obj_property name="ObjectShortName">wstrb[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_snn_fpga/bresp" type="array">
+      <obj_property name="ElementShortName">bresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">bresp[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_snn_fpga/rresp" type="array">
+      <obj_property name="ElementShortName">rresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">rresp[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_snn_fpga/rdata" type="array">
+      <obj_property name="ElementShortName">rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_snn_fpga/sample" type="array">
+      <obj_property name="ElementShortName">sample[0:124][7:0]</obj_property>
+      <obj_property name="ObjectShortName">sample[0:124][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_snn_fpga/all_samples" type="array">
+      <obj_property name="ElementShortName">all_samples[0:499][7:0]</obj_property>
+      <obj_property name="ObjectShortName">all_samples[0:499][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_snn_fpga/golden_counts" type="array">
+      <obj_property name="ElementShortName">golden_counts[0:3][31:0]</obj_property>
+      <obj_property name="ObjectShortName">golden_counts[0:3][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_snn_fpga/golden_pred" type="array">
+      <obj_property name="ElementShortName">golden_pred[0:3][1:0]</obj_property>
+      <obj_property name="ObjectShortName">golden_pred[0:3][1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_snn_fpga/true_label" type="array">
+      <obj_property name="ElementShortName">true_label[0:3][1:0]</obj_property>
+      <obj_property name="ObjectShortName">true_label[0:3][1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_snn_fpga/fail_count" type="array">
+      <obj_property name="ElementShortName">fail_count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fail_count[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_snn_fpga/successful_runs" type="array">
+      <obj_property name="ElementShortName">successful_runs[31:0]</obj_property>
+      <obj_property name="ObjectShortName">successful_runs[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_snn_fpga/counts_first" type="array">
+      <obj_property name="ElementShortName">counts_first[31:0]</obj_property>
+      <obj_property name="ObjectShortName">counts_first[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_snn_fpga/cycles_first" type="array">
+      <obj_property name="ElementShortName">cycles_first[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cycles_first[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_snn_fpga/class_first" type="array">
+      <obj_property name="ElementShortName">class_first[1:0]</obj_property>
+      <obj_property name="ObjectShortName">class_first[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_snn_fpga/counts_second" type="array">
+      <obj_property name="ElementShortName">counts_second[31:0]</obj_property>
+      <obj_property name="ObjectShortName">counts_second[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_snn_fpga/cycles_second" type="array">
+      <obj_property name="ElementShortName">cycles_second[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cycles_second[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_snn_fpga/class_second" type="array">
+      <obj_property name="ElementShortName">class_second[1:0]</obj_property>
+      <obj_property name="ObjectShortName">class_second[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_snn_fpga/data_read" type="array">
+      <obj_property name="ElementShortName">data_read[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_read[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_snn_fpga/resp_read" type="array">
+      <obj_property name="ElementShortName">resp_read[1:0]</obj_property>
+      <obj_property name="ObjectShortName">resp_read[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_snn_fpga/resp_write" type="array">
+      <obj_property name="ElementShortName">resp_write[1:0]</obj_property>
+      <obj_property name="ObjectShortName">resp_write[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_snn_fpga/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_snn_fpga/j" type="array">
+      <obj_property name="ElementShortName">j[31:0]</obj_property>
+      <obj_property name="ObjectShortName">j[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_snn_fpga/case_idx" type="array">
+      <obj_property name="ElementShortName">case_idx[31:0]</obj_property>
+      <obj_property name="ObjectShortName">case_idx[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_snn_fpga/correct_vs_label" type="array">
+      <obj_property name="ElementShortName">correct_vs_label[31:0]</obj_property>
+      <obj_property name="ObjectShortName">correct_vs_label[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_snn_fpga/class_led_sim" type="array">
+      <obj_property name="ElementShortName">class_led_sim[3:0]</obj_property>
+      <obj_property name="ObjectShortName">class_led_sim[3:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_snn_fpga/PERIOD_NS" type="array">
+      <obj_property name="ElementShortName">PERIOD_NS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PERIOD_NS[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_snn_fpga/N_STEPS" type="array">
+      <obj_property name="ElementShortName">N_STEPS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">N_STEPS[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_snn_fpga/N_CASES" type="array">
+      <obj_property name="ElementShortName">N_CASES[31:0]</obj_property>
+      <obj_property name="ObjectShortName">N_CASES[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_snn_fpga/POLL_GAP_CYCLES" type="array">
+      <obj_property name="ElementShortName">POLL_GAP_CYCLES[31:0]</obj_property>
+      <obj_property name="ObjectShortName">POLL_GAP_CYCLES[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_snn_fpga/MAX_POLLS" type="array">
+      <obj_property name="ElementShortName">MAX_POLLS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MAX_POLLS[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_snn_fpga/REG_CTRL" type="array">
+      <obj_property name="ElementShortName">REG_CTRL[7:0]</obj_property>
+      <obj_property name="ObjectShortName">REG_CTRL[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_snn_fpga/REG_STATUS" type="array">
+      <obj_property name="ElementShortName">REG_STATUS[7:0]</obj_property>
+      <obj_property name="ObjectShortName">REG_STATUS[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_snn_fpga/REG_IDX" type="array">
+      <obj_property name="ElementShortName">REG_IDX[7:0]</obj_property>
+      <obj_property name="ObjectShortName">REG_IDX[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_snn_fpga/REG_DATA" type="array">
+      <obj_property name="ElementShortName">REG_DATA[7:0]</obj_property>
+      <obj_property name="ObjectShortName">REG_DATA[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_snn_fpga/REG_CLASS" type="array">
+      <obj_property name="ElementShortName">REG_CLASS[7:0]</obj_property>
+      <obj_property name="ObjectShortName">REG_CLASS[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_snn_fpga/REG_COUNTS" type="array">
+      <obj_property name="ElementShortName">REG_COUNTS[7:0]</obj_property>
+      <obj_property name="ObjectShortName">REG_COUNTS[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_snn_fpga/REG_CYCLES" type="array">
+      <obj_property name="ElementShortName">REG_CYCLES[7:0]</obj_property>
+      <obj_property name="ObjectShortName">REG_CYCLES[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_snn_fpga/REG_ID" type="array">
+      <obj_property name="ElementShortName">REG_ID[7:0]</obj_property>
+      <obj_property name="ObjectShortName">REG_ID[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_snn_fpga/AXI_OKAY" type="array">
+      <obj_property name="ElementShortName">AXI_OKAY[1:0]</obj_property>
+      <obj_property name="ObjectShortName">AXI_OKAY[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_snn_fpga/AXI_SLVERR" type="array">
+      <obj_property name="ElementShortName">AXI_SLVERR[1:0]</obj_property>
+      <obj_property name="ObjectShortName">AXI_SLVERR[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_snn_fpga/class_led_hold" type="array">
+      <obj_property name="ElementShortName">class_led_hold[3:0]</obj_property>
+      <obj_property name="ObjectShortName">class_led_hold[3:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_snn_fpga/class_led_hold[3]" type="logic">
+         <obj_property name="ElementShortName">[3]</obj_property>
+         <obj_property name="ObjectShortName">[3]</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_snn_fpga/class_led_hold[2]" type="logic">
+         <obj_property name="ElementShortName">[2]</obj_property>
+         <obj_property name="ObjectShortName">[2]</obj_property>
+         <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_snn_fpga/class_led_hold[1]" type="logic">
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">[1]</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_snn_fpga/class_led_hold[0]" type="logic">
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">[0]</obj_property>
+         <obj_property name="CustomSignalColor">#FF0080</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

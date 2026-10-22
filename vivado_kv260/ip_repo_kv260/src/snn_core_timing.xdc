@@ -1,0 +1,1 @@
+create_clock -period 10.000 -name s_axi_clk [get_ports s_axi_aclk]

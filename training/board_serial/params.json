@@ -1,0 +1,65 @@
+{
+  "layers": [
+    {
+      "scale": 0.004235080846651333,
+      "threshold": 0.5,
+      "threshold_int": 944,
+      "decay_shift": 3,
+      "gain_shift": 1,
+      "frac_bits": 3,
+      "beta": 0.875,
+      "bits": 8,
+      "shape": [
+        128,
+        8
+      ]
+    },
+    {
+      "scale": 0.004650872992718313,
+      "threshold": 0.5,
+      "threshold_int": 860,
+      "decay_shift": 3,
+      "gain_shift": 1,
+      "frac_bits": 3,
+      "beta": 0.875,
+      "bits": 8,
+      "shape": [
+        4,
+        128
+      ]
+    }
+  ],
+  "model": "SNN4LIF",
+  "T": 125,
+  "n_in": 8,
+  "hidden": 128,
+  "n_out": 4,
+  "beta": 0.875,
+  "gain": 2.0,
+  "bits": 8,
+  "class_names": [
+    "PD in air (12 kV)",
+    "PD in void (25 kV)",
+    "Corona (11 kV)",
+    "No PD (noise)"
+  ],
+  "normalization": "per_window",
+  "thresholds_float": [
+    0.028142690658569336,
+    0.10006181709468365,
+    0.1900365471839905,
+    0.27440715819597244
+  ],
+  "encoding": {
+    "K": 4,
+    "quantiles": [
+      0.5,
+      0.75,
+      0.9,
+      0.97
+    ],
+    "scale": 0.5
+  },
+  "weight_layout": "row-major (out_units, in_units)",
+  "notes": "input spike 0/1, int16 membrane, saturation to [-32768, 32767], reset by subtraction"
+}

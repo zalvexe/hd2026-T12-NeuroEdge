@@ -1,0 +1,50 @@
+Time resolution is 1 ps
+WARNING: File weights/w1_int8.mem referenced from process on D:/Documents/Semester 7/Hackathon/FPGA_SNN/neuroedge_kr260_starter_SNN95/rtl/synapse_accumulator.v at line 36 cannot be opened for reading. Please ensure that this file is available in the current working directory or parent directory of xsim.dir location specified via -xsimdir switch.
+WARNING: File weights/w2_int8.mem referenced from process on D:/Documents/Semester 7/Hackathon/FPGA_SNN/neuroedge_kr260_starter_SNN95/rtl/synapse_accumulator.v at line 36 cannot be opened for reading. Please ensure that this file is available in the current working directory or parent directory of xsim.dir location specified via -xsimdir switch.
+[1000] TB WEIGHTS LOADED: W1=1024 bytes, W2=512 bytes (simulation only)
+NPZ vectors loaded: 4 samples x 125 timesteps x 8 input spikes
+
+===== SNN95 AXI-Lite realistic host test =====
+ID = 0x534e4e31 (expected SNN1)
+
+[520000] CASE: ZERO INPUT / idle-like datapath baseline
+  Held LED (waveform/TB only) = 0001
+  Virtual LED (TB only) = 0001
+[2439350000] DONE: CLASS=0 COUNTS=[0,0,0,0] CYCLES=242127 (~2421.27 us at 100 MHz)
+WAVE INPUT: NPZ index=0 label=0 input_label_led=0001
+
+[2439450000] CASE: NPZ REAL CASE #0 (class label 0)
+  Held LED (waveform/TB only) = 0001
+  Virtual LED (TB only) = 0001
+[4878280000] DONE: CLASS=0 COUNTS=[58,50,49,20] CYCLES=242127 (~2421.27 us at 100 MHz)
+    expected golden CLASS=0 COUNTS=1431323a; true label=0
+WAVE OUTPUT: FPGA CLASS=0 output_class_led=0001 match=1
+WAVE INPUT: NPZ index=150 label=1 input_label_led=0010
+
+[5378375000] CASE: NPZ REAL CASE #1 (class label 1)
+  Held LED (waveform/TB only) = 0010
+  Virtual LED (TB only) = 0010
+[7817200000] DONE: CLASS=1 COUNTS=[27,35,20,18] CYCLES=242127 (~2421.27 us at 100 MHz)
+    expected golden CLASS=1 COUNTS=1214231b; true label=1
+WAVE OUTPUT: FPGA CLASS=1 output_class_led=0010 match=1
+WAVE INPUT: NPZ index=300 label=2 input_label_led=0100
+
+[8317295000] CASE: NPZ REAL CASE #2 (class label 2)
+  Held LED (waveform/TB only) = 0100
+  Virtual LED (TB only) = 0100
+[10756120000] DONE: CLASS=2 COUNTS=[62,85,95,81] CYCLES=242127 (~2421.27 us at 100 MHz)
+    expected golden CLASS=2 COUNTS=515f553e; true label=2
+WAVE OUTPUT: FPGA CLASS=2 output_class_led=0100 match=1
+WAVE INPUT: NPZ index=450 label=3 input_label_led=1000
+
+[11256215000] CASE: NPZ REAL CASE #3 (class label 3)
+  Held LED (waveform/TB only) = 1000
+  Virtual LED (TB only) = 1000
+[13695040000] DONE: CLASS=3 COUNTS=[40,72,63,88] CYCLES=242127 (~2421.27 us at 100 MHz)
+    expected golden CLASS=3 COUNTS=583f4828; true label=3
+WAVE OUTPUT: FPGA CLASS=3 output_class_led=1000 match=1
+NPZ selected-sample accuracy vs labels: 4 / 4 (not full-dataset accuracy)
+
+===== SUMMARY: successful inferences=5, failures=0 =====
+TEST PASS: AXI + NPZ dataset cases match golden references
+$finish called at time : 14195260 ns : File "D:/Documents/Semester 7/Hackathon/FPGA_SNN/neuroedge_kr260_starter_SNN95/vivado_kv260/neuroedge_snn_kv260/neuroedge_snn_kv260.srcs/sim_1/new/tb_snn_fpga.sv" Line 452

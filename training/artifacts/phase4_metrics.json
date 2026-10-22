@@ -1,0 +1,92 @@
+{
+  "threshold_sweep": [
+    {
+      "scale": 0.5,
+      "val_acc": 0.7766666666666666,
+      "test_acc": 0.7716666666666666,
+      "spikes_per_window": 183.10025,
+      "active_timestep_frac": 0.629312
+    },
+    {
+      "scale": 1.0,
+      "val_acc": 0.8116666666666666,
+      "test_acc": 0.8133333333333334,
+      "spikes_per_window": 109.21675,
+      "active_timestep_frac": 0.496916
+    }
+  ],
+  "normalization": {
+    "per_window_main": {
+      "name": "SNN 8-64-4, per-window",
+      "accuracy": 0.8816666666666667,
+      "macro_f1": 0.8802551932699713,
+      "pd_vs_noise": {
+        "precision": 0.9664429530201343,
+        "recall": 0.96,
+        "f1": 0.9632107023411371
+      },
+      "confusion_matrix": [
+        [
+          150,
+          0,
+          0,
+          0
+        ],
+        [
+          16,
+          121,
+          13,
+          0
+        ],
+        [
+          3,
+          6,
+          123,
+          18
+        ],
+        [
+          0,
+          4,
+          11,
+          135
+        ]
+      ]
+    },
+    "global_comparison": {
+      "name": "Global normalization (comparison)",
+      "accuracy": 0.865,
+      "macro_f1": 0.8653920153920154,
+      "pd_vs_noise": {
+        "precision": 0.9035639412997903,
+        "recall": 0.9577777777777777,
+        "f1": 0.9298813376483279
+      },
+      "confusion_matrix": [
+        [
+          150,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          139,
+          11,
+          0
+        ],
+        [
+          0,
+          5,
+          126,
+          19
+        ],
+        [
+          0,
+          3,
+          43,
+          104
+        ]
+      ]
+    }
+  }
+}
