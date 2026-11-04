@@ -1,4 +1,6 @@
 # NEUROEDGE
+Deeptech Indonesia Chip Hackathon Challenge 2026    
+__WE WON 2ND PLACEEE!!!🥈__
 
 ## 1. What is NeuroEdge?
 
